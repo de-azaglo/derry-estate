@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import CallToActionButton from './components/CallToActionButton.vue';
 import HomeView from './views/HomeView.vue';
 import ServiceView from './views/ServiceView.vue';
+import SearchView from './views/SearchView.vue';
 
 </script>
 
@@ -26,6 +27,8 @@ import ServiceView from './views/ServiceView.vue';
   <HomeView />
 
   <ServiceView />
+
+  <SearchView />
   <!-- <RouterView /> -->
 </template>
 
