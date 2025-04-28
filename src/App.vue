@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import CallToActionButton from './components/CallToActionButton.vue';
-import HomeView from './views/HomeView.vue';
-import ServiceView from './views/ServiceView.vue';
-import SearchView from './views/SearchView.vue';
-
+import CallToActionButton from './components/CallToActionButton.vue'
+import HomeView from './views/HomeView.vue'
+import ServiceView from './views/ServiceView.vue'
+import SearchView from './views/SearchView.vue'
 </script>
 
 <template>
@@ -13,12 +12,12 @@ import SearchView from './views/SearchView.vue';
       <img alt="Vue logo" class="logo" src="@/assets/pictures/logo.png" width="125" height="125" />
       <h3 class="logo-caption">Derry Estate</h3>
     </div>
-      <nav>
-        <RouterLink to="/">Brands</RouterLink>
-        <RouterLink to="/services">Service</RouterLink>
-        <RouterLink to="/about">Features</RouterLink>
-        <RouterLink to="/about">Contact</RouterLink>
-      </nav>
+    <nav>
+      <RouterLink to="/">Brands</RouterLink>
+      <RouterLink to="/services">Service</RouterLink>
+      <RouterLink to="/about">Features</RouterLink>
+      <RouterLink to="/about">Contact</RouterLink>
+    </nav>
     <CallToActionButton>
       <template #title>Contact Us</template>
     </CallToActionButton>
@@ -43,12 +42,12 @@ header {
   /* position: fixed; */
 }
 
-.logo-container{
+.logo-container {
   display: flex;
   align-items: center;
 }
 
-.logo-caption{
+.logo-caption {
   margin-left: 8px;
   font-weight: 600;
   color: #fff;
@@ -76,7 +75,7 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   font-size: 1.2em;
-  color: rgba(235, 235, 235, 0.64);;
+  color: rgba(235, 235, 235, 0.64);
 }
 
 nav a:first-of-type {
@@ -84,6 +83,5 @@ nav a:first-of-type {
 }
 
 @media (min-width: 1024px) {
- 
 }
 </style>

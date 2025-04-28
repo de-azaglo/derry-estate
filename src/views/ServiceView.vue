@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import BuyHouseIcon from '@/components/icons/BuyHouseIcon.vue';
-import HouseIcon from '@/components/icons/HouseIcon.vue';
-import RentIcon from '@/components/icons/RentIcon.vue';
-import ServiceCard from '@/components/ServiceCard.vue';
-
+import BuyHouseIcon from '@/components/icons/BuyHouseIcon.vue'
+import HouseIcon from '@/components/icons/HouseIcon.vue'
+import RentIcon from '@/components/icons/RentIcon.vue'
+import ServiceCard from '@/components/ServiceCard.vue'
 </script>
 
 <template>
@@ -16,24 +15,21 @@ import ServiceCard from '@/components/ServiceCard.vue';
           <HouseIcon />
         </template>
 
-        <template #title>
-          New Property
-        </template>
-        
+        <template #title> New Property </template>
+
         <template #caption>
-          Derry Estate will help you find new homes or ready-to-occupy houses with trusted facilities and affordable prices.
+          Derry Estate will help you find new homes or ready-to-occupy houses with trusted
+          facilities and affordable prices.
         </template>
       </ServiceCard>
-        
+
       <ServiceCard>
         <template #icon>
           <RentIcon />
         </template>
 
-        <template #title>
-          Rent A House
-        </template>
-        
+        <template #title> Rent A House </template>
+
         <template #caption>
           Rent houses with various strategic facilities and locations for temporary occupancy.
         </template>
@@ -43,10 +39,8 @@ import ServiceCard from '@/components/ServiceCard.vue';
           <BuyHouseIcon />
         </template>
 
-        <template #title>
-          Rent A House
-        </template>
-        
+        <template #title> Rent A House </template>
+
         <template #caption>
           Rent houses with various strategic facilities and locations for temporary occupancy.
         </template>
@@ -63,21 +57,21 @@ import ServiceCard from '@/components/ServiceCard.vue';
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #F3FFF4;
+    background-color: #f3fff4;
     width: 100%;
   }
 
-  .services h1{
+  .services h1 {
     color: var(--vt-c-green);
     font-size: 4em;
     font-weight: 800;
   }
 
-  .services p{
+  .services p {
     color: black;
   }
 
-  .card-container{
+  .card-container {
     display: flex;
     justify-content: space-around;
     width: 100%;
